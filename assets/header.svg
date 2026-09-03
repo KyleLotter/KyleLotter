@@ -1,0 +1,27 @@
+<svg width="880" height="240" viewBox="0 0 880 240" xmlns="http://www.w3.org/2000/svg"><rect width="880" height="240" fill="#0a0e17"/>
+<rect x="1" y="1" width="878" height="238" rx="10" fill="#0d1320" stroke="#1c2740" stroke-width="1.5"/>
+<path d="M18,34 L18,18 L34,18" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,18 L862,18 L862,34" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M18,206 L18,222 L34,222" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,222 L862,222 L862,206" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="60" y="42" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#8593a8">kylelotter / README.md</text>
+<line x1="60" y1="54" x2="820" y2="54" stroke="#1c2740" stroke-width="1"/>
+<line x1="110" y1="55" x2="150" y2="40" stroke="#1a7f73" stroke-width="1"/>
+<line x1="150" y1="40" x2="190" y2="70" stroke="#1a7f73" stroke-width="1"/>
+<line x1="700" y1="45" x2="740" y2="65" stroke="#1a7f73" stroke-width="1"/>
+<line x1="740" y1="65" x2="770" y2="35" stroke="#1a7f73" stroke-width="1"/>
+<circle cx="110" cy="55" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="150" cy="40" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="190" cy="70" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="700" cy="45" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="740" cy="65" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="770" cy="35" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="95" cy="150" r="2" fill="#2dd4bf" opacity="0.7"/>
+<circle cx="760" cy="150" r="2" fill="#2dd4bf" opacity="0.7"/>
+<text x="440.0" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#e6edf3" text-anchor="middle" letter-spacing="6px">KYLE LOTTER</text>
+<text x="440.0" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#2dd4bf" text-anchor="middle">Full-stack developer who ships systems, not just screens.</text>
+<line x1="370.0" y1="172" x2="426.0" y2="172" stroke="#1c2740" stroke-width="1"/>
+<circle cx="440.0" cy="172" r="2.5" fill="#2dd4bf"/>
+<line x1="454.0" y1="172" x2="510.0" y2="172" stroke="#1c2740" stroke-width="1"/>
+<text x="440.0" y="200" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8593a8" text-anchor="middle" letter-spacing="3px">ANDROID  ·  .NET / AZURE  ·  IOT SYSTEMS</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="880" height="300" viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg"><rect width="880" height="300" fill="#0a0e17"/>
+<rect x="1" y="1" width="878" height="298" rx="10" fill="#0d1320" stroke="#1c2740" stroke-width="1.5"/>
+<path d="M18,34 L18,18 L34,18" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,18 L862,18 L862,34" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M18,266 L18,282 L34,282" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,282 L862,282 L862,266" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="440.0" y="46" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#8593a8" text-anchor="middle" letter-spacing="5px">ACCOMPLISHMENTS</text>
+<rect x="32.0" y="66" width="396" height="96" fill="#0f1626" stroke="#1c2740" stroke-width="1" rx="6"/>
+<rect x="32.0" y="76" width="3" height="76" fill="#2dd4bf"/>
+<text x="54.0" y="98" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e6edf3">Monolith → Microservices</text>
+<text x="54.0" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">One legacy app, split, containerised, and</text>
+<text x="54.0" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">shipped via CI/CD.</text>
+<rect x="452.0" y="66" width="396" height="96" fill="#0f1626" stroke="#1c2740" stroke-width="1" rx="6"/>
+<rect x="452.0" y="76" width="3" height="76" fill="#2dd4bf"/>
+<text x="474.0" y="98" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e6edf3">98% Delivered</text>
+<text x="474.0" y="122" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">Encrypted docs, automated reporting,</text>
+<text x="474.0" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">multi-stage approvals. Solo build.</text>
+<rect x="32.0" y="182" width="396" height="96" fill="#0f1626" stroke="#1c2740" stroke-width="1" rx="6"/>
+<rect x="32.0" y="192" width="3" height="76" fill="#2dd4bf"/>
+<text x="54.0" y="214" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e6edf3">300-Mark IoT Build</text>
+<text x="54.0" y="238" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">Ingestion, mesh, and dashboard, wired as one</text>
+<text x="54.0" y="258" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">system.</text>
+<rect x="452.0" y="182" width="396" height="96" fill="#0f1626" stroke="#1c2740" stroke-width="1" rx="6"/>
+<rect x="452.0" y="192" width="3" height="76" fill="#2dd4bf"/>
+<text x="474.0" y="214" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#e6edf3">Grows Its Own Data</text>
+<text x="474.0" y="238" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">A hydroponic tower that watches itself and</text>
+<text x="474.0" y="258" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8">adjusts.</text>
+</svg>

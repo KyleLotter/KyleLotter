@@ -1,0 +1,20 @@
+<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg"><rect width="880" height="200" fill="#0a0e17"/>
+<rect x="1" y="1" width="878" height="198" rx="10" fill="#0d1320" stroke="#1c2740" stroke-width="1.5"/>
+<path d="M18,34 L18,18 L34,18" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,18 L862,18 L862,34" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M18,166 L18,182 L34,182" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,182 L862,182 L862,166" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="440.0" y="44" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#8593a8" text-anchor="middle" letter-spacing="5px">CONTRIBUTION STATS</text>
+<line x1="293.3333333333333" y1="66" x2="293.3333333333333" y2="170" stroke="#1c2740" stroke-width="1"/>
+<line x1="586.6666666666666" y1="66" x2="586.6666666666666" y2="170" stroke="#1c2740" stroke-width="1"/>
+<text x="146.66666666666666" y="120" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">—</text>
+<text x="146.66666666666666" y="145" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8" text-anchor="middle">Total Contributions</text>
+<text x="146.66666666666666" y="168" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8593a8" text-anchor="middle"> – Present</text>
+<circle cx="440.0" cy="102" r="34" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+<text x="440.0" y="110" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#e6edf3" text-anchor="middle">—</text>
+<text x="440.0" y="153" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8" text-anchor="middle">Current Streak</text>
+<text x="440.0" y="176" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8593a8" text-anchor="middle">Sep 3</text>
+<text x="733.3333333333333" y="120" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#e6edf3" text-anchor="middle">—</text>
+<text x="733.3333333333333" y="145" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" fill="#8593a8" text-anchor="middle">Longest Streak</text>
+<text x="733.3333333333333" y="168" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8593a8" text-anchor="middle">–</text>
+</svg>

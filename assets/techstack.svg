@@ -1,0 +1,30 @@
+<svg width="880" height="166" viewBox="0 0 880 166" xmlns="http://www.w3.org/2000/svg"><rect width="880" height="166" fill="#0a0e17"/>
+<rect x="1" y="1" width="878" height="164" rx="10" fill="#0d1320" stroke="#1c2740" stroke-width="1.5"/>
+<path d="M18,34 L18,18 L34,18" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,18 L862,18 L862,34" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M18,132 L18,148 L34,148" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<path d="M846,148 L862,148 L862,132" stroke="#2dd4bf" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="440.0" y="46" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#8593a8" text-anchor="middle" letter-spacing="5px">TECH STACK</text>
+<rect x="84.0" y="62" width="51" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="109.5" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">C#</text>
+<rect x="145.0" y="62" width="66" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="178.0" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">.NET</text>
+<rect x="221.0" y="62" width="81" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="261.5" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">Kotlin</text>
+<rect x="312.0" y="62" width="66" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="345.0" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">Java</text>
+<rect x="388.0" y="62" width="127" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="451.5" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">React Native</text>
+<rect x="525.0" y="62" width="74" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="562.0" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">Azure</text>
+<rect x="609.0" y="62" width="96" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="657.0" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">Firebase</text>
+<rect x="715.0" y="62" width="81" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="755.5" y="82.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">Docker</text>
+<rect x="239.5" y="108" width="127" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="303.0" y="128.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">DigitalOcean</text>
+<rect x="376.5" y="108" width="112" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="432.5" y="128.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">SQL Server</text>
+<rect x="498.5" y="108" width="142" height="32" rx="16" fill="#0f1626" stroke="#1a7f73" stroke-width="1.2"/>
+<text x="569.5" y="128.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#2dd4bf" text-anchor="middle">GitHub Actions</text>
+</svg>
