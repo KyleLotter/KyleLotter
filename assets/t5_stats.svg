@@ -1,6 +1,0 @@
-<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg">
-<rect x="0" y="0" width="880" height="200" fill="#0b0d10"/>
-<line x1="0.75" y1="0" x2="0.75" y2="200" stroke="#232a33" stroke-width="1.5"/><line x1="879.25" y1="0" x2="879.25" y2="200" stroke="#232a33" stroke-width="1.5"/>
-<text x="28" y="44" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14.5"><tspan fill="#5CE68C">kyle@dev</tspan><tspan fill="#69737f">:~$ </tspan><tspan fill="#d6dee8">./contrib --stats</tspan></text>
-<text x="440.0" y="173" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5"><tspan fill="#5CE68C">-</tspan><tspan fill="#69737f"> total contributions    </tspan><tspan fill="#5CE68C">-</tspan><tspan fill="#69737f"> day streak    </tspan><tspan fill="#5CE68C">-</tspan><tspan fill="#69737f"> day best</tspan></text>
-</svg>

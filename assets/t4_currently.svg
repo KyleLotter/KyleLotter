@@ -1,7 +1,0 @@
-<svg width="880" height="128" viewBox="0 0 880 128" xmlns="http://www.w3.org/2000/svg">
-<rect x="0" y="0" width="880" height="128" fill="#0b0d10"/>
-<line x1="0.75" y1="0" x2="0.75" y2="128" stroke="#232a33" stroke-width="1.5"/><line x1="879.25" y1="0" x2="879.25" y2="128" stroke="#232a33" stroke-width="1.5"/>
-<text x="28" y="44" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14.5"><tspan fill="#5CE68C">kyle@dev</tspan><tspan fill="#69737f">:~$ </tspan><tspan fill="#d6dee8">cat currently.md</tspan></text>
-<text x="28" y="74" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="400" fill="#d6dee8">&gt; Cloud-native architecture and IoT systems right now, pulling toward</text>
-<text x="28" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="400" fill="#d6dee8">&gt; where secure backend engineering meets embedded hardware.</text>
-</svg>
