@@ -25,9 +25,8 @@
 <text class="mono tiny" x="56" y="50">SELECTED WORK</text>
 <text class="mono tiny" x="640" y="50">BUILT WITH</text>
 <line x1="74" y1="84" x2="74" y2="756" stroke="#8c959f" stroke-width="6" stroke-linecap="round"/>
-<circle cx="74" cy="84" r="10" fill="#b8532a"/>
+<circle cx="74" cy="84" r="7" fill="#1f2328"/>
 <text class="serif" x="108" y="91" font-size="21" fill="#1f2328">Smart Hydro</text>
-<text class="mono tiny" x="243" y="89" style="fill:#b8532a">FLAGSHIP</text>
 <text class="serif" x="108" y="114" font-size="15" font-style="italic" fill="#656d76">Live IoT hydroponics platform for a client, running</text>
 <text class="serif" x="108" y="134" font-size="15" font-style="italic" fill="#656d76">on Azure.</text>
 <text class="mono body" x="640" y="90">Kotlin, Compose, Room, ASP.NET Core,</text>

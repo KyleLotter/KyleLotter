@@ -51,7 +51,7 @@ YEARS = [
     ("2025", "C#, .NET and Azure",
      "Moved to .NET and the cloud. A venue booking system, a security awareness chatbot, an online shop and an inventory manager, with unit-tested code throughout."),
     ("2026", "Real systems, real users",
-     "A live IoT hydroponics platform for a client on Azure. A real-time IoT mesh ecosystem. A travel planner with maps. A secure freelance marketplace with DevSecOps. A gamified budget tracker. A library app now used by a school. And teaching it all at Emeris."),
+     "A live IoT hydroponics platform for a client on Azure. A real-time IoT mesh ecosystem. A travel planner with maps. A secure freelance marketplace with DevSecOps. A gamified budget tracker. A library app now used by a school."),
 ]
 
 
@@ -83,7 +83,7 @@ def journey(t):
 # Projects -----------------------------------------------------------------
 PROJECTS = [
     ("Smart Hydro", "Live IoT hydroponics platform for a client, running on Azure.",
-     "Kotlin, Compose, Room, ASP.NET Core, Azure, Neon PostgreSQL, ESP32", True),
+     "Kotlin, Compose, Room, ASP.NET Core, Azure, Neon PostgreSQL, ESP32", False),
     ("PiggyPromise", "Gamified budget tracker with charts.", "Kotlin, Compose, Firebase, MPAndroidChart, GitHub Actions", False),
     ("Odyssey", "Travel planner with maps and a backend.", "Android Compose, Mapbox, Firebase Auth and Storage, ASP.NET", False),
     ("Smart-X", "Real-time IoT mesh ecosystem.", "React, TypeScript, ASP.NET Core, EF Core, SignalR, Docker Compose", False),
