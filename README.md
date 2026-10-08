@@ -5,7 +5,16 @@
   <img src="assets/map-light.svg" alt="Kyle Lötter's skills map. Seven lines, Web, .NET, Mobile, IoT, Cloud, Data and design, and Teaching, with skills as stations and shared skills as interchanges." width="100%">
 </picture>
 
-Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
+<br>
+
+Gqeberha, South Africa
+
+<a href="https://www.linkedin.com/in/kyle-lotter">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linkedin-dark.svg">
+  <img src="assets/linkedin-light.svg" alt="Connect with Kyle Lötter on LinkedIn" width="340">
+</picture>
+</a>
 
 </div>
 
@@ -25,22 +34,14 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 <br>
 
-### In practice
-
-**Accessibility.** TalkBack support, read-aloud and high-contrast modes in a production Android app.
-
-**Offline-first.** Room-backed local storage that syncs when the connection returns, plus an offline hotspot relay and box pairing for hardware.
-
-**Security.** OTP login with rate limiting, security-header middleware, JWT auth, HTTPS and AES document encryption.
-
-**Cloud.** Azure App Service in South Africa North, Neon PostgreSQL, containerised services and CI pipelines.
-
-**Data and design.** ERDs and data models, relational and document schemas, PL/SQL, personas, double diamond, user-centred design and Figma prototypes.
-
-**Teaching.** Contract tutor at Emeris across 8 modules, class representative, technical documentation.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/practice-dark.svg">
+  <img src="assets/practice-light.svg" alt="In practice. Accessibility, offline-first, security, cloud, data and design, and teaching." width="100%">
+</picture>
 
 <br>
 
-### Tools
-
-`Kotlin` `C#` `TypeScript` `JavaScript` `Java` `SQL` `C++` `HTML` `CSS` `Jetpack Compose` `ASP.NET Core` `EF Core` `React` `Node` `Express` `MongoDB` `Firebase` `Azure` `Docker` `GitHub Actions` `Cisco Packet Tracer`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tools-dark.svg">
+  <img src="assets/tools-light.svg" alt="Tools. Kotlin, C#, TypeScript, JavaScript, Java, SQL, C++, HTML, CSS, Jetpack Compose, ASP.NET Core, EF Core, React, Node, Express, MongoDB, Firebase, Azure, Docker, GitHub Actions, Cisco Packet Tracer." width="100%">
+</picture>

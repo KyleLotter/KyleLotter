@@ -19,7 +19,7 @@ def wrap(text, width):
     return textwrap.wrap(text, width=width, break_long_words=False)
 
 
-def frame(t, h, inner, title, desc, seed):
+def frame(t, h, inner, title, desc, seed, W=1000, art=True):
     css = """
 .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}
 .serif{font-family:Georgia,"Times New Roman","DejaVu Serif",serif}
@@ -32,8 +32,9 @@ def frame(t, h, inner, title, desc, seed):
          '<style>%s</style>' % css,
          '<defs><clipPath id="c"><rect width="%d" height="%d" rx="16"/></clipPath></defs>' % (W, h),
          '<g clip-path="url(#c)">']
-    o += contours(t, 985, h + 30, 7, 34, 50, seed)
-    o += contours(t, 20, h + 50, 4, 34, 40, seed + 5)
+    if art:
+        o += contours(t, 985, h + 30, 7, 34, 50, seed)
+        o += contours(t, 20, h + 50, 4, 34, 40, seed + 5)
     o.append('</g>')
     o.append('<rect x="0.5" y="0.5" width="%d" height="%d" rx="16" fill="none" stroke="%s"/>' % (W - 1, h - 1, t["edge"]))
     o += inner
@@ -80,16 +81,16 @@ def journey(t):
 
 # Projects -----------------------------------------------------------------
 PROJECTS = [
-    ("Smart Hydro", "Hydroponics monitoring and dosing for a real client (Emeris), live on Azure. My work was mainly the Android app, the MVC web app and the API.",
+    ("Smart Hydro", "Hydroponics monitoring and dosing for a client, live on Azure.",
      "Kotlin, Compose, Room, ASP.NET Core, Azure, Neon PostgreSQL, ESP32", True),
     ("PiggyPromise", "Personal budgeting app with charts.", "Kotlin, Compose, Firebase, MPAndroidChart, GitHub Actions", False),
     ("Odyssey", "Travel app with maps and a backend.", "Android Compose, Mapbox, Firebase Auth and Storage, ASP.NET", False),
     ("Smart-X", "Real-time web platform.", "React, TypeScript, ASP.NET Core, EF Core, SignalR, Docker Compose", False),
-    ("TechMove", "Logistics web app and API with 34 unit tests.", "ASP.NET MVC, Web API, Docker, GitHub Actions, DigitalOcean", False),
+    ("TechMove", "Logistics web app and API.", "ASP.NET MVC, Web API, Docker, GitHub Actions, DigitalOcean", False),
     ("HustleHub+", "Marketplace for small businesses.", "React, TypeScript, Express, MongoDB, JWT, HTTPS", False),
     ("Noble & Co.", "Cloud-native storefront.", "Azure Table, Blob, Queue and Functions", False),
     ("CMCS", "Claims system with encrypted documents.", "ASP.NET Core, AES, QuestPDF", False),
-    ("School Library", "Library management desktop app.", ".NET MAUI, EF Core, SQLite", False),
+    ("School Library", "Library management desktop app, used by a school.", ".NET MAUI, EF Core, SQLite", False),
 ]
 
 
@@ -123,10 +124,94 @@ def projects(t):
     return frame(t, h, o, "Selected work", "Nine projects with what each is and what it is built with", 21)
 
 
+# In practice --------------------------------------------------------------
+PRACTICE = [
+    ("Accessibility", "TalkBack support, read-aloud and high-contrast modes in a production Android app."),
+    ("Offline-first", "Room-backed local storage that syncs when the connection returns, plus an offline hotspot relay and box pairing for hardware."),
+    ("Security", "OTP login with rate limiting, security-header middleware, JWT auth, HTTPS and AES document encryption."),
+    ("Cloud", "Azure App Service in South Africa North, Neon PostgreSQL, containerised services and CI pipelines."),
+    ("Data and design", "ERDs and data models, relational and document schemas, PL/SQL, personas, double diamond, user-centred design and Figma prototypes."),
+    ("Teaching", "Contract tutor at Emeris across 8 modules, class representative and technical documentation."),
+]
+
+
+def practice(t):
+    text, muted, accent = t["text"], t["muted"], t["accent"]
+    cw, gap, top = 432, 24, 70
+    o = ['<text class="mono tiny" x="56" y="44">IN PRACTICE</text>']
+    y = top
+    for r in range(0, len(PRACTICE), 2):
+        pair = PRACTICE[r:r + 2]
+        wrapped = [wrap(b, 46) for _, b in pair]
+        ch = max(len(w) for w in wrapped) * 19 + 98
+        for i, ((title, _), lines) in enumerate(zip(pair, wrapped)):
+            x = 56 + i * (cw + gap)
+            o.append('<rect x="%d" y="%d" width="%d" height="%d" rx="12" fill="none" stroke="%s" stroke-width="1.5"/>' % (x, y, cw, ch, t["edge"]))
+            o.append('<rect x="%d" y="%d" width="28" height="4" rx="2" fill="%s"/>' % (x + 24, y + 26, accent))
+            o.append('<text class="serif" x="%d" y="%d" font-size="22" fill="%s">%s</text>' % (x + 24, y + 62, text, escape(title)))
+            for j, ln in enumerate(lines):
+                o.append('<text class="mono body" x="%d" y="%d">%s</text>' % (x + 24, y + 92 + j * 19, escape(ln)))
+        y += ch + gap
+    h = y - gap + 40
+    return frame(t, h, o, "In practice", "Accessibility, offline-first, security, cloud, data and design, and teaching", 31)
+
+
+# Tools --------------------------------------------------------------------
+TOOLS = [
+    ("LANGUAGES", ["Kotlin", "C#", "TypeScript", "JavaScript", "Java", "SQL", "C++", "HTML", "CSS"]),
+    ("MOBILE", ["Jetpack Compose", "Room", "Retrofit", "Firebase", "Mapbox"]),
+    ("BACKEND", ["ASP.NET Core", "EF Core", "SignalR", "Node", "Express"]),
+    ("WEB", ["React", "Vite", "MongoDB"]),
+    ("DATA", ["SQL Server", "MySQL", "PostgreSQL", "Oracle PL/SQL"]),
+    ("CLOUD + DEVOPS", ["Azure", "Docker", "GitHub Actions", "DigitalOcean"]),
+    ("DESIGN + NETWORKS", ["Figma", "Cisco Packet Tracer"]),
+]
+
+
+def tools(t):
+    text, muted, accent = t["text"], t["muted"], t["accent"]
+    x0, xmax = 260, 944
+    o = ['<text class="mono tiny" x="56" y="44">TOOLS</text>']
+    y = 84
+    for label, items in TOOLS:
+        o.append('<text class="mono tiny" x="56" y="%d" style="fill:%s">%s</text>' % (y + 20, accent, escape(label)))
+        x = x0
+        for it in items:
+            cwid = int(len(it) * 7.9 + 28)
+            if x + cwid > xmax:
+                x = x0
+                y += 44
+            o.append('<rect x="%d" y="%d" width="%d" height="32" rx="16" fill="none" stroke="%s" stroke-width="1.5"/>' % (x, y, cwid, t["edge"]))
+            o.append('<text class="mono" x="%d" y="%d" font-size="13" text-anchor="middle" fill="%s">%s</text>' % (x + cwid / 2, y + 21, text, escape(it)))
+            x += cwid + 10
+        y += 54
+    h = y + 10
+    return frame(t, h, o, "Tools", "Languages, frameworks, data, cloud and design tools I use", 37, art=False)
+
+
+# LinkedIn pill ------------------------------------------------------------
+def linkedin(t):
+    text, muted, accent = t["text"], t["muted"], t["accent"]
+    w, h = 340, 56
+    o = ['<rect x="1" y="1" width="%d" height="%d" rx="28" fill="none" stroke="%s" stroke-width="1.5"/>' % (w - 2, h - 2, t["edge"]),
+         '<rect x="10" y="10" width="36" height="36" rx="18" fill="%s"/>' % accent,
+         '<text class="mono" x="28" y="34" font-size="15" font-weight="700" text-anchor="middle" fill="#ffffff">in</text>',
+         '<text class="mono tiny" x="62" y="26">LINKEDIN</text>',
+         '<text class="mono" x="62" y="43" font-size="14" font-weight="700" fill="%s">kyle-lotter</text>' % text,
+         '<line x1="270" y1="28" x2="306" y2="28" stroke="%s" stroke-width="2" stroke-linecap="round"/>' % accent,
+         '<polyline points="298,20 307,28 298,36" fill="none" stroke="%s" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>' % accent]
+    css = '.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.tiny{font-size:11px;fill:%s;letter-spacing:2.2px}' % muted
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img">'
+            '<title>LinkedIn, kyle-lotter</title><style>%s</style>%s</svg>' % (w, h, w, h, css, "".join(o)))
+
+
 if __name__ == "__main__":
     out = Path(__file__).resolve().parent.parent / "assets"
     out.mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
         (out / ("journey-%s.svg" % name)).write_text(journey(theme), encoding="utf-8")
         (out / ("projects-%s.svg" % name)).write_text(projects(theme), encoding="utf-8")
-    print("wrote 4 files to", out)
+        (out / ("practice-%s.svg" % name)).write_text(practice(theme), encoding="utf-8")
+        (out / ("tools-%s.svg" % name)).write_text(tools(theme), encoding="utf-8")
+        (out / ("linkedin-%s.svg" % name)).write_text(linkedin(theme), encoding="utf-8")
+    print("wrote 10 files to", out)
