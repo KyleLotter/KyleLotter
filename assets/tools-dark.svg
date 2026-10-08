@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 472" width="1000" height="472" role="img">
+<title>Tools</title><desc>Languages, frameworks, data, cloud and design tools I use</desc>
+<style>
+.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}
+.serif{font-family:Georgia,"Times New Roman","DejaVu Serif",serif}
+.tiny{font-size:11px;fill:#8b949e;letter-spacing:2.2px}
+.body{font-size:13px;fill:#8b949e}
+</style>
+<defs><clipPath id="c"><rect width="1000" height="472" rx="16"/></clipPath></defs>
+<g clip-path="url(#c)">
+</g>
+<rect x="0.5" y="0.5" width="999" height="471" rx="16" fill="none" stroke="#30363d"/>
+<text class="mono tiny" x="56" y="44">TOOLS</text>
+<text class="mono tiny" x="56" y="104" style="fill:#e2774f">LANGUAGES</text>
+<rect x="260" y="84" width="75" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="297" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">Kotlin</text>
+<rect x="345" y="84" width="43" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="366" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">C#</text>
+<rect x="398" y="84" width="107" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="451" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">TypeScript</text>
+<rect x="515" y="84" width="107" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="568" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">JavaScript</text>
+<rect x="632" y="84" width="59" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="661" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">Java</text>
+<rect x="701" y="84" width="51" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="726" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">SQL</text>
+<rect x="762" y="84" width="51" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="787" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">C++</text>
+<rect x="823" y="84" width="59" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="852" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">HTML</text>
+<rect x="892" y="84" width="51" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="917" y="105" font-size="13" text-anchor="middle" fill="#e6edf3">CSS</text>
+<text class="mono tiny" x="56" y="158" style="fill:#e2774f">MOBILE</text>
+<rect x="260" y="138" width="146" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="333" y="159" font-size="13" text-anchor="middle" fill="#e6edf3">Jetpack Compose</text>
+<rect x="416" y="138" width="59" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="445" y="159" font-size="13" text-anchor="middle" fill="#e6edf3">Room</text>
+<rect x="485" y="138" width="91" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="530" y="159" font-size="13" text-anchor="middle" fill="#e6edf3">Retrofit</text>
+<rect x="586" y="138" width="91" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="631" y="159" font-size="13" text-anchor="middle" fill="#e6edf3">Firebase</text>
+<rect x="687" y="138" width="75" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="724" y="159" font-size="13" text-anchor="middle" fill="#e6edf3">Mapbox</text>
+<text class="mono tiny" x="56" y="212" style="fill:#e2774f">BACKEND</text>
+<rect x="260" y="192" width="122" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="321" y="213" font-size="13" text-anchor="middle" fill="#e6edf3">ASP.NET Core</text>
+<rect x="392" y="192" width="83" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="433" y="213" font-size="13" text-anchor="middle" fill="#e6edf3">EF Core</text>
+<rect x="485" y="192" width="83" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="526" y="213" font-size="13" text-anchor="middle" fill="#e6edf3">SignalR</text>
+<rect x="578" y="192" width="59" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="607" y="213" font-size="13" text-anchor="middle" fill="#e6edf3">Node</text>
+<rect x="647" y="192" width="83" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="688" y="213" font-size="13" text-anchor="middle" fill="#e6edf3">Express</text>
+<text class="mono tiny" x="56" y="266" style="fill:#e2774f">WEB</text>
+<rect x="260" y="246" width="67" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="293" y="267" font-size="13" text-anchor="middle" fill="#e6edf3">React</text>
+<rect x="337" y="246" width="59" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="366" y="267" font-size="13" text-anchor="middle" fill="#e6edf3">Vite</text>
+<rect x="406" y="246" width="83" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="447" y="267" font-size="13" text-anchor="middle" fill="#e6edf3">MongoDB</text>
+<text class="mono tiny" x="56" y="320" style="fill:#e2774f">DATA</text>
+<rect x="260" y="300" width="107" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="313" y="321" font-size="13" text-anchor="middle" fill="#e6edf3">SQL Server</text>
+<rect x="377" y="300" width="67" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="410" y="321" font-size="13" text-anchor="middle" fill="#e6edf3">MySQL</text>
+<rect x="454" y="300" width="107" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="507" y="321" font-size="13" text-anchor="middle" fill="#e6edf3">PostgreSQL</text>
+<rect x="571" y="300" width="130" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="636" y="321" font-size="13" text-anchor="middle" fill="#e6edf3">Oracle PL/SQL</text>
+<text class="mono tiny" x="56" y="374" style="fill:#e2774f">CLOUD + DEVOPS</text>
+<rect x="260" y="354" width="67" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="293" y="375" font-size="13" text-anchor="middle" fill="#e6edf3">Azure</text>
+<rect x="337" y="354" width="75" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="374" y="375" font-size="13" text-anchor="middle" fill="#e6edf3">Docker</text>
+<rect x="422" y="354" width="138" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="491" y="375" font-size="13" text-anchor="middle" fill="#e6edf3">GitHub Actions</text>
+<rect x="570" y="354" width="122" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="631" y="375" font-size="13" text-anchor="middle" fill="#e6edf3">DigitalOcean</text>
+<text class="mono tiny" x="56" y="428" style="fill:#e2774f">DESIGN + NETWORKS</text>
+<rect x="260" y="408" width="67" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="293" y="429" font-size="13" text-anchor="middle" fill="#e6edf3">Figma</text>
+<rect x="337" y="408" width="178" height="32" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<text class="mono" x="426" y="429" font-size="13" text-anchor="middle" fill="#e6edf3">Cisco Packet Tracer</text>
+</svg>
