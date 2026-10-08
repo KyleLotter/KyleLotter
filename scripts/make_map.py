@@ -13,7 +13,7 @@ import random
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-W, H = 1000, 880
+W, H = 1000, 730
 
 # Transparent background, neutral greys and a single clay accent.
 THEMES = {
@@ -27,13 +27,13 @@ TRACK_START = 200
 
 # One horizontal track per discipline, top to bottom.
 ROWS = [
-    dict(key="web", name="WEB", y=270, train="-6s"),
-    dict(key="net", name=".NET", y=350, train="-19s"),
-    dict(key="mobile", name="MOBILE", y=430, train="-11s"),
-    dict(key="iot", name="IOT", y=510, train="-30s"),
-    dict(key="cloud", name="CLOUD", y=590, train="-3s"),
-    dict(key="design", name="DATA + DESIGN", y=670, train="-24s"),
-    dict(key="teach", name="TEACHING", y=750, dotted=True),
+    dict(key="web", name="WEB", y=120, train="-6s"),
+    dict(key="net", name=".NET", y=200, train="-19s"),
+    dict(key="mobile", name="MOBILE", y=280, train="-11s"),
+    dict(key="iot", name="IOT", y=360, train="-30s"),
+    dict(key="cloud", name="CLOUD", y=440, train="-3s"),
+    dict(key="design", name="DATA + DESIGN", y=520, train="-24s"),
+    dict(key="teach", name="TEACHING", y=600, dotted=True),
 ]
 
 # row, x, skill, label side (A above the track, B below it)
@@ -134,27 +134,16 @@ def build(t):
 
     # Contours, clipped to the card, with a hairline edge
     o.append('<g clip-path="url(#card)">')
-    o += contours(t, 930, 900, 16, 36, 60, 4)
-    o += contours(t, 40, 910, 9, 36, 50, 11)
+    o += contours(t, 930, 750, 16, 36, 60, 4)
+    o += contours(t, 40, 760, 9, 36, 50, 11)
     o += contours(t, 1010, 30, 5, 28, 40, 7)
-    o += contours(t, 1020, 520, 6, 30, 40, 23)
+    o += contours(t, 1020, 370, 6, 30, 40, 23)
     o.append('</g>')
     o.append('<rect x="0.5" y="0.5" width="%d" height="%d" rx="16" fill="none" stroke="%s"/>' % (W - 1, H - 1, t["edge"]))
 
-    # Title block
-    o.append('<text class="mono tiny" x="56" y="68">SKILLS MAP</text>')
-    o.append('<text class="mono tiny" x="170" y="68" style="fill:%s;opacity:.7">REV. 10/2026</text>' % muted)
-    o.append('<text class="serif" x="56" y="124" font-size="52" fill="%s">Kyle Lötter</text>' % text)
-    o.append('<text class="serif" x="58" y="156" font-size="19" font-style="italic" fill="%s">'
-             'Building things that talk to each other.</text>' % muted)
-
-    # How to read it, top right
-    for i, line in enumerate(["Lines are the disciplines I work in.",
-                              "Stations are the skills.",
-                              "Interchanges are shared skills."]):
-        o.append('<text class="serif" x="690" y="%d" font-size="16" font-style="italic" fill="%s">%s</text>'
-                 % (70 + i * 24, muted, line))
-    o.append('<line x1="56" y1="188" x2="944" y2="188" stroke="%s" stroke-width="1.5"/>' % accent)
+    # How to read it
+    o.append('<text class="serif" x="500" y="52" font-size="16" font-style="italic" text-anchor="middle" fill="%s">'
+             'Lines are the disciplines I work in. Stations are the skills. Interchanges are shared skills.</text>' % muted)
 
     # Tracks and row names
     for r in ROWS:
@@ -194,10 +183,10 @@ def build(t):
         o.append('<text class="mono st" x="%d" y="%d">%s</text>' % (x + 22, (y1 + y2) // 2 + 5, escape(name)))
 
     # Footer
-    o.append('<line x1="56" y1="826" x2="944" y2="826" stroke="%s" stroke-width="1.5"/>' % accent)
-    o.append('<text class="mono tiny" x="56" y="854">GQEBERHA · SOUTH AFRICA · 33.96° S 25.60° E</text>')
-    o.append('<text class="mono tiny" x="640" y="854" text-anchor="middle">GITHUB.COM/KYLELOTTER</text>')
-    o.append('<text class="mono tiny" x="944" y="854" text-anchor="end">NOT TO SCALE</text>')
+    o.append('<line x1="56" y1="676" x2="944" y2="676" stroke="%s" stroke-width="1.5"/>' % accent)
+    o.append('<text class="mono tiny" x="56" y="704">GQEBERHA · SOUTH AFRICA · 33.96° S 25.60° E</text>')
+    o.append('<text class="mono tiny" x="640" y="704" text-anchor="middle">GITHUB.COM/KYLELOTTER</text>')
+    o.append('<text class="mono tiny" x="944" y="704" text-anchor="end">NOT TO SCALE</text>')
 
     o.append('</svg>')
     return "\n".join(o)

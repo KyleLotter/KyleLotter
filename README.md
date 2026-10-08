@@ -1,15 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/map-dark.svg">
-  <img src="assets/map-light.svg" alt="Kyle Lötter's skills map. Seven lines, Web, .NET, Mobile, IoT, Cloud, Data and design, and Teaching, with skills as stations and shared skills as interchanges." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="Kyle Lötter. Android developer, .NET developer, IoT builder, cloud and security. Building things that talk to each other. Gqeberha, South Africa." width="100%">
 </picture>
-
-<br>
-
-Gqeberha, South Africa
-
-<br>
 
 <a href="https://www.linkedin.com/in/kyle-lotter">
 <picture>
@@ -17,6 +11,14 @@ Gqeberha, South Africa
   <img src="assets/linkedin-light.svg" alt="Connect with Kyle Lötter on LinkedIn" width="280">
 </picture>
 </a>
+
+<br>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map-dark.svg">
+  <img src="assets/map-light.svg" alt="Kyle Lötter's skills map. Seven lines, Web, .NET, Mobile, IoT, Cloud, Data and design, and Teaching, with skills as stations and shared skills as interchanges." width="100%">
+</picture>
 
 </div>
 
