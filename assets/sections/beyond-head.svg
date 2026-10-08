@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 76" width="1000" height="76" role="img">
+<title>Beyond the code</title><desc>Dropdown header, Beyond the code</desc>
+<style>
+.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}
+.serif{font-family:Georgia,"Times New Roman","DejaVu Serif",serif}
+.tiny{font-size:11px;fill:#9c8e80;letter-spacing:2.2px}
+.body{font-size:13px;fill:#d9cfc1}
+.bold{font-weight:700}
+</style>
+<defs><clipPath id="c"><rect width="1000" height="76" rx="16"/></clipPath></defs>
+<rect width="1000" height="76" rx="16" fill="#0d1811"/>
+<rect x="0.5" y="0.5" width="999" height="75" rx="16" fill="none" stroke="#1b3123"/>
+<g clip-path="url(#c)"><rect x="0" y="0" width="10" height="76" fill="#a98fa6"/></g>
+<line x1="10" y1="38" x2="52" y2="38" stroke="#a98fa6" stroke-width="8" stroke-linecap="round"/>
+<circle cx="52" cy="38" r="9" fill="#0d1811" stroke="#d9cfc1" stroke-width="4"/>
+<text class="mono tiny" x="84" y="32" style="fill:#a98fa6">STOP 05</text>
+<text class="serif" x="84" y="58" font-size="26" fill="#d9cfc1">Beyond the code</text>
+<text class="mono tiny" x="944" y="43" text-anchor="end">TAP TO OPEN</text>
+</svg>
