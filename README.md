@@ -9,10 +9,12 @@
 
 Gqeberha, South Africa
 
+<br>
+
 <a href="https://www.linkedin.com/in/kyle-lotter">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/linkedin-dark.svg">
-  <img src="assets/linkedin-light.svg" alt="Connect with Kyle Lötter on LinkedIn" width="340">
+  <img src="assets/linkedin-light.svg" alt="Connect with Kyle Lötter on LinkedIn" width="280">
 </picture>
 </a>
 
@@ -43,5 +45,5 @@ Gqeberha, South Africa
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/tools-dark.svg">
-  <img src="assets/tools-light.svg" alt="Tools. Kotlin, C#, TypeScript, JavaScript, Java, SQL, C++, HTML, CSS, Jetpack Compose, ASP.NET Core, EF Core, React, Node, Express, MongoDB, Firebase, Azure, Docker, GitHub Actions, Cisco Packet Tracer." width="100%">
+  <img src="assets/tools-light.svg" alt="Tools. Kotlin, C#, TypeScript, JavaScript, Java, SQL, C++, HTML, CSS, Jetpack Compose, ASP.NET Core, EF Core, React, Node, Express, MongoDB, Firebase, Azure, Docker, GitHub Actions, Canva, Cisco Packet Tracer." width="100%">
 </picture>

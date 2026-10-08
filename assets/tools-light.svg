@@ -81,6 +81,8 @@
 <text class="mono tiny" x="56" y="428" style="fill:#b8532a">DESIGN + NETWORKS</text>
 <rect x="260" y="408" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="293" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Figma</text>
-<rect x="337" y="408" width="178" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="426" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Cisco Packet Tracer</text>
+<rect x="337" y="408" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="370" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Canva</text>
+<rect x="414" y="408" width="178" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="503" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Cisco Packet Tracer</text>
 </svg>
