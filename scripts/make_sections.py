@@ -192,18 +192,17 @@ def tools(t):
     return frame(t, h, o, "Tools", "Languages, frameworks, data, cloud and design tools I use", 37, art=False)
 
 
-# LinkedIn pill ------------------------------------------------------------
+# LinkedIn button ----------------------------------------------------------
 def linkedin(t):
-    text, muted, accent = t["text"], t["muted"], t["accent"]
-    w, h = 280, 56
-    o = ['<rect x="1" y="1" width="%d" height="%d" rx="28" fill="none" stroke="%s" stroke-width="1.5"/>' % (w - 2, h - 2, t["edge"]),
-         '<rect x="10" y="10" width="36" height="36" rx="18" fill="%s"/>' % accent,
-         '<text class="mono" x="28" y="34" font-size="15" font-weight="700" text-anchor="middle" fill="#ffffff">in</text>',
-         '<text class="mono tiny" x="62" y="26">LINKEDIN</text>',
-         '<text class="mono" x="62" y="43" font-size="14" font-weight="700" fill="%s">kyle-lotter</text>' % text,
-         '<line x1="214" y1="28" x2="246" y2="28" stroke="%s" stroke-width="2" stroke-linecap="round"/>' % accent,
-         '<polyline points="238,20 247,28 238,36" fill="none" stroke="%s" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>' % accent]
-    css = '.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}.tiny{font-size:11px;fill:%s;letter-spacing:2.2px}' % muted
+    accent = t["accent"]
+    ink = "#ffffff" if t is THEMES["light"] else "#0d1117"
+    w, h = 232, 48
+    o = ['<rect width="%d" height="%d" rx="24" fill="%s"/>' % (w, h, accent),
+         '<text class="mono" x="94" y="29.5" font-size="14" font-weight="700" text-anchor="middle" fill="%s" '
+         'style="letter-spacing:3px">LINKEDIN</text>' % ink,
+         '<line x1="162" y1="24" x2="184" y2="24" stroke="%s" stroke-width="2.2" stroke-linecap="round"/>' % ink,
+         '<polyline points="177,17 184,24 177,31" fill="none" stroke="%s" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>' % ink]
+    css = '.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}'
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img">'
             '<title>LinkedIn, kyle-lotter</title><style>%s</style>%s</svg>' % (w, h, w, h, css, "".join(o)))
 

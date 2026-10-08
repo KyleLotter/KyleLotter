@@ -2,13 +2,15 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Kyle Lötter. Android developer, .NET developer, IoT builder, cloud and security. Building things that talk to each other. Gqeberha, South Africa." width="100%">
+  <img src="assets/hero-light.svg" alt="Kyle Lötter. Android developer, .NET developer, IoT builder, cloud and security. Gqeberha, South Africa." width="100%">
 </picture>
+
+<br>
 
 <a href="https://www.linkedin.com/in/kyle-lotter">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/linkedin-dark.svg">
-  <img src="assets/linkedin-light.svg" alt="Connect with Kyle Lötter on LinkedIn" width="280">
+  <img src="assets/linkedin-light.svg" alt="Connect with Kyle Lötter on LinkedIn" width="232">
 </picture>
 </a>
 

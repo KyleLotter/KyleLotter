@@ -12,7 +12,7 @@ from xml.sax.saxutils import escape
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_map import THEMES, contours  # noqa: E402
 
-W, H = 1000, 340
+W, H = 1000, 300
 ROLES = ["ANDROID DEVELOPER", ".NET DEVELOPER", "IOT BUILDER", "CLOUD + SECURITY"]
 CYCLE = 12  # seconds for the full set of roles
 
@@ -46,12 +46,12 @@ def build(t):
          '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img">' % (W, H, W, H),
          '<title>Kyle Lötter</title>',
          '<desc>Kyle Lötter. Android developer, .NET developer, IoT builder, cloud and security. '
-         'Building things that talk to each other. Gqeberha, South Africa.</desc>',
+         'Gqeberha, South Africa.</desc>',
          '<style>%s</style>' % css,
          '<defs><clipPath id="c"><rect width="%d" height="%d"/></clipPath></defs>' % (W, H),
          '<g clip-path="url(#c)">']
     o += contours(t, 120, 60, 5, 34, 40, 41)
-    o += contours(t, 900, 300, 6, 34, 40, 44)
+    o += contours(t, 900, 270, 6, 34, 40, 44)
     o.append('</g>')
 
     # Name
@@ -66,17 +66,15 @@ def build(t):
         o.append('<text class="mono" x="510" y="185" font-size="21" font-weight="700" text-anchor="middle" fill="%s" opacity="%d" '
                  'style="letter-spacing:2px">%s%s</text>' % (text, 0, escape(role), role_cycle(i, len(ROLES))))
 
-    # Tagline and place
-    o.append('<text class="serif" x="500" y="252" font-size="21" font-style="italic" text-anchor="middle" fill="%s" opacity="0">'
-             'Building things that talk to each other.%s</text>' % (muted, fade_up(1.2, 1.0, 8)))
-    o.append('<text class="mono tiny" x="500" y="286" text-anchor="middle" opacity="0">GQEBERHA · SOUTH AFRICA%s</text>' % fade_up(1.6, 1.0, 6))
+    # Place
+    o.append('<text class="mono tiny" x="500" y="252" text-anchor="middle" opacity="0">GQEBERHA · SOUTH AFRICA%s</text>' % fade_up(1.3, 1.0, 6))
 
     # Line that draws itself, with one slow train
-    o.append('<line x1="56" y1="318" x2="944" y2="318" stroke="%s" stroke-width="3" stroke-linecap="round" '
+    o.append('<line x1="56" y1="284" x2="944" y2="284" stroke="%s" stroke-width="3" stroke-linecap="round" '
              'stroke-dasharray="888" stroke-dashoffset="888">'
              '<animate attributeName="stroke-dashoffset" from="888" to="0" begin="0.4s" dur="1.6s" fill="freeze"/></line>' % track)
     o.append('<circle r="4.5" fill="%s" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2s" dur="0.4s" fill="freeze"/>'
-             '<animateMotion dur="14s" begin="2s" repeatCount="indefinite" path="M56 318 L944 318" keyPoints="0;1;0" '
+             '<animateMotion dur="14s" begin="2s" repeatCount="indefinite" path="M56 284 L944 284" keyPoints="0;1;0" '
              'keyTimes="0;0.5;1" calcMode="linear"/></circle>' % accent)
     o.append('</svg>')
     return "\n".join(o)
