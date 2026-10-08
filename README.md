@@ -10,8 +10,10 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 <br>
 
+<img src="assets/sections/languages-head.svg" alt="Languages and stacks" width="100%">
+
 <details>
-<summary><img src="assets/sections/languages-head.svg" alt="Languages and stacks" width="100%"></summary>
+<summary><b>Open the language route</b></summary>
 
 <br>
 
@@ -19,8 +21,12 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 </details>
 
+<br>
+
+<img src="assets/sections/skills-head.svg" alt="Skills in depth" width="100%">
+
 <details>
-<summary><img src="assets/sections/skills-head.svg" alt="Skills in depth" width="100%"></summary>
+<summary><b>Open the skills board</b></summary>
 
 <br>
 
@@ -28,8 +34,12 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 </details>
 
+<br>
+
+<img src="assets/sections/projects-head.svg" alt="Projects" width="100%">
+
 <details>
-<summary><img src="assets/sections/projects-head.svg" alt="Projects" width="100%"></summary>
+<summary><b>Open the departures board</b></summary>
 
 <br>
 
@@ -37,8 +47,12 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 </details>
 
+<br>
+
+<img src="assets/sections/timeline-head.svg" alt="Timeline" width="100%">
+
 <details>
-<summary><img src="assets/sections/timeline-head.svg" alt="Timeline" width="100%"></summary>
+<summary><b>Open the timeline</b></summary>
 
 <br>
 
@@ -46,11 +60,17 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 </details>
 
+<br>
+
+<img src="assets/sections/beyond-head.svg" alt="Beyond the code" width="100%">
+
 <details>
-<summary><img src="assets/sections/beyond-head.svg" alt="Beyond the code" width="100%"></summary>
+<summary><b>Open the extras</b></summary>
 
 <br>
 
 <img src="assets/sections/beyond.svg" alt="Data, networks, design, and architecture and planning work." width="100%">
 
 </details>
+
+<br>

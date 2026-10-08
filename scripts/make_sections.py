@@ -230,6 +230,6 @@ if __name__ == "__main__":
     out = Path(__file__).resolve().parent.parent / "assets" / "sections"
     out.mkdir(parents=True, exist_ok=True)
     for i, (key, title, col, fn) in enumerate(SECTIONS, 1):
-        (out / ("%s-head.svg" % key)).write_text(header("%02d" % i, title, col, "TAP TO OPEN"), encoding="utf-8")
+        (out / ("%s-head.svg" % key)).write_text(header("%02d" % i, title, col, "%02d / %02d" % (i, len(SECTIONS))), encoding="utf-8")
         (out / ("%s.svg" % key)).write_text(fn(), encoding="utf-8")
     print("wrote", len(SECTIONS) * 2, "files to", out)

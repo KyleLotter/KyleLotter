@@ -16,5 +16,5 @@
 <circle cx="52" cy="38" r="9" fill="#0d1811" stroke="#d9cfc1" stroke-width="4"/>
 <text class="mono tiny" x="84" y="32" style="fill:#86b07c">STOP 01</text>
 <text class="serif" x="84" y="58" font-size="26" fill="#d9cfc1">Languages and stacks</text>
-<text class="mono tiny" x="944" y="43" text-anchor="end">TAP TO OPEN</text>
+<text class="mono tiny" x="944" y="43" text-anchor="end">01 / 05</text>
 </svg>
