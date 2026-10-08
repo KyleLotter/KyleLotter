@@ -185,8 +185,7 @@ def build(t):
     # Footer
     o.append('<line x1="56" y1="676" x2="944" y2="676" stroke="%s" stroke-width="1.5"/>' % accent)
     o.append('<text class="mono tiny" x="56" y="704">GQEBERHA · SOUTH AFRICA · 33.96° S 25.60° E</text>')
-    o.append('<text class="mono tiny" x="640" y="704" text-anchor="middle">GITHUB.COM/KYLELOTTER</text>')
-    o.append('<text class="mono tiny" x="944" y="704" text-anchor="end">NOT TO SCALE</text>')
+    o.append('<text class="mono tiny" x="944" y="704" text-anchor="end">GITHUB.COM/KYLELOTTER</text>')
 
     o.append('</svg>')
     return "\n".join(o)
