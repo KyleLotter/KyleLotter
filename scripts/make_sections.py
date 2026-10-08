@@ -159,12 +159,14 @@ def practice(t):
 # Tools --------------------------------------------------------------------
 TOOLS = [
     ("LANGUAGES", ["Kotlin", "C#", "TypeScript", "JavaScript", "Java", "SQL", "C++", "HTML", "CSS"]),
-    ("MOBILE", ["Jetpack Compose", "Room", "Retrofit", "Firebase", "Mapbox"]),
-    ("BACKEND", ["ASP.NET Core", "EF Core", "SignalR", "Node", "Express"]),
-    ("WEB", ["React", "Vite", "MongoDB"]),
-    ("DATA", ["SQL Server", "MySQL", "PostgreSQL", "Oracle PL/SQL"]),
+    ("MOBILE", ["Jetpack Compose", "Material 3", "Room", "Firebase", "Mapbox"]),
+    ("BACKEND", ["ASP.NET Core", "EF Core", "SignalR", "Node", "Swagger", "Scalar"]),
+    ("WEB", ["React", "Next.js", "Tailwind", "Bootstrap", "Vite"]),
+    ("DATA", ["SQL Server", "Azure SQL", "PostgreSQL", "Supabase", "MongoDB", "Oracle PL/SQL"]),
     ("CLOUD + DEVOPS", ["Azure", "Docker", "GitHub Actions", "DigitalOcean"]),
-    ("DESIGN + NETWORKS", ["Figma", "Canva", "Cisco Packet Tracer"]),
+    ("HARDWARE", ["ESP32", "Arduino IDE", "Raspberry Pi", "MQTT"]),
+    ("TESTING + API", ["xUnit", "NUnit", "Postman"]),
+    ("DESIGN + PLANNING", ["Figma", "Canva", "draw.io", "Excalidraw", "Lucidchart", "Notion"]),
 ]
 
 

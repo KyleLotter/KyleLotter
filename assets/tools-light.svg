@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 472" width="1000" height="472" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580" role="img">
 <title>Tools</title><desc>Languages, frameworks, data, cloud and design tools I use</desc>
 <style>
 .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace}
@@ -7,10 +7,10 @@
 .tiny{font-size:11px;fill:#656d76;letter-spacing:2.2px}
 .body{font-size:13px;fill:#656d76}
 </style>
-<defs><clipPath id="c"><rect width="1000" height="472" rx="16"/></clipPath></defs>
+<defs><clipPath id="c"><rect width="1000" height="580" rx="16"/></clipPath></defs>
 <g clip-path="url(#c)">
 </g>
-<rect x="0.5" y="0.5" width="999" height="471" rx="16" fill="none" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="999" height="579" rx="16" fill="none" stroke="#d0d7de"/>
 <text class="mono tiny" x="56" y="44">TOOLS</text>
 <text class="mono tiny" x="56" y="104" style="fill:#b8532a">LANGUAGES</text>
 <rect x="260" y="84" width="75" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
@@ -34,14 +34,14 @@
 <text class="mono tiny" x="56" y="158" style="fill:#b8532a">MOBILE</text>
 <rect x="260" y="138" width="146" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="333" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Jetpack Compose</text>
-<rect x="416" y="138" width="59" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="445" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Room</text>
-<rect x="485" y="138" width="91" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="530" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Retrofit</text>
-<rect x="586" y="138" width="91" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="631" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Firebase</text>
-<rect x="687" y="138" width="75" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="724" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Mapbox</text>
+<rect x="416" y="138" width="107" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="469" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Material 3</text>
+<rect x="533" y="138" width="59" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="562" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Room</text>
+<rect x="602" y="138" width="91" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="647" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Firebase</text>
+<rect x="703" y="138" width="75" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="740" y="159" font-size="13" text-anchor="middle" fill="#1f2328">Mapbox</text>
 <text class="mono tiny" x="56" y="212" style="fill:#b8532a">BACKEND</text>
 <rect x="260" y="192" width="122" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="321" y="213" font-size="13" text-anchor="middle" fill="#1f2328">ASP.NET Core</text>
@@ -52,23 +52,33 @@
 <rect x="578" y="192" width="59" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="607" y="213" font-size="13" text-anchor="middle" fill="#1f2328">Node</text>
 <rect x="647" y="192" width="83" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="688" y="213" font-size="13" text-anchor="middle" fill="#1f2328">Express</text>
+<text class="mono" x="688" y="213" font-size="13" text-anchor="middle" fill="#1f2328">Swagger</text>
+<rect x="740" y="192" width="75" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="777" y="213" font-size="13" text-anchor="middle" fill="#1f2328">Scalar</text>
 <text class="mono tiny" x="56" y="266" style="fill:#b8532a">WEB</text>
 <rect x="260" y="246" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="293" y="267" font-size="13" text-anchor="middle" fill="#1f2328">React</text>
-<rect x="337" y="246" width="59" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="366" y="267" font-size="13" text-anchor="middle" fill="#1f2328">Vite</text>
-<rect x="406" y="246" width="83" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="447" y="267" font-size="13" text-anchor="middle" fill="#1f2328">MongoDB</text>
+<rect x="337" y="246" width="83" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="378" y="267" font-size="13" text-anchor="middle" fill="#1f2328">Next.js</text>
+<rect x="430" y="246" width="91" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="475" y="267" font-size="13" text-anchor="middle" fill="#1f2328">Tailwind</text>
+<rect x="531" y="246" width="99" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="580" y="267" font-size="13" text-anchor="middle" fill="#1f2328">Bootstrap</text>
+<rect x="640" y="246" width="59" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="669" y="267" font-size="13" text-anchor="middle" fill="#1f2328">Vite</text>
 <text class="mono tiny" x="56" y="320" style="fill:#b8532a">DATA</text>
 <rect x="260" y="300" width="107" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="313" y="321" font-size="13" text-anchor="middle" fill="#1f2328">SQL Server</text>
-<rect x="377" y="300" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="410" y="321" font-size="13" text-anchor="middle" fill="#1f2328">MySQL</text>
-<rect x="454" y="300" width="107" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="507" y="321" font-size="13" text-anchor="middle" fill="#1f2328">PostgreSQL</text>
-<rect x="571" y="300" width="130" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="636" y="321" font-size="13" text-anchor="middle" fill="#1f2328">Oracle PL/SQL</text>
+<rect x="377" y="300" width="99" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="426" y="321" font-size="13" text-anchor="middle" fill="#1f2328">Azure SQL</text>
+<rect x="486" y="300" width="107" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="539" y="321" font-size="13" text-anchor="middle" fill="#1f2328">PostgreSQL</text>
+<rect x="603" y="300" width="91" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="648" y="321" font-size="13" text-anchor="middle" fill="#1f2328">Supabase</text>
+<rect x="704" y="300" width="83" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="745" y="321" font-size="13" text-anchor="middle" fill="#1f2328">MongoDB</text>
+<rect x="797" y="300" width="130" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="862" y="321" font-size="13" text-anchor="middle" fill="#1f2328">Oracle PL/SQL</text>
 <text class="mono tiny" x="56" y="374" style="fill:#b8532a">CLOUD + DEVOPS</text>
 <rect x="260" y="354" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="293" y="375" font-size="13" text-anchor="middle" fill="#1f2328">Azure</text>
@@ -78,11 +88,33 @@
 <text class="mono" x="491" y="375" font-size="13" text-anchor="middle" fill="#1f2328">GitHub Actions</text>
 <rect x="570" y="354" width="122" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
 <text class="mono" x="631" y="375" font-size="13" text-anchor="middle" fill="#1f2328">DigitalOcean</text>
-<text class="mono tiny" x="56" y="428" style="fill:#b8532a">DESIGN + NETWORKS</text>
+<text class="mono tiny" x="56" y="428" style="fill:#b8532a">HARDWARE</text>
 <rect x="260" y="408" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="293" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Figma</text>
-<rect x="337" y="408" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="370" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Canva</text>
-<rect x="414" y="408" width="178" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-<text class="mono" x="503" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Cisco Packet Tracer</text>
+<text class="mono" x="293" y="429" font-size="13" text-anchor="middle" fill="#1f2328">ESP32</text>
+<rect x="337" y="408" width="114" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="394" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Arduino IDE</text>
+<rect x="461" y="408" width="122" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="522" y="429" font-size="13" text-anchor="middle" fill="#1f2328">Raspberry Pi</text>
+<rect x="593" y="408" width="59" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="622" y="429" font-size="13" text-anchor="middle" fill="#1f2328">MQTT</text>
+<text class="mono tiny" x="56" y="482" style="fill:#b8532a">TESTING + API</text>
+<rect x="260" y="462" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="293" y="483" font-size="13" text-anchor="middle" fill="#1f2328">xUnit</text>
+<rect x="337" y="462" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="370" y="483" font-size="13" text-anchor="middle" fill="#1f2328">NUnit</text>
+<rect x="414" y="462" width="83" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="455" y="483" font-size="13" text-anchor="middle" fill="#1f2328">Postman</text>
+<text class="mono tiny" x="56" y="536" style="fill:#b8532a">DESIGN + PLANNING</text>
+<rect x="260" y="516" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="293" y="537" font-size="13" text-anchor="middle" fill="#1f2328">Figma</text>
+<rect x="337" y="516" width="67" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="370" y="537" font-size="13" text-anchor="middle" fill="#1f2328">Canva</text>
+<rect x="414" y="516" width="83" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="455" y="537" font-size="13" text-anchor="middle" fill="#1f2328">draw.io</text>
+<rect x="507" y="516" width="107" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="560" y="537" font-size="13" text-anchor="middle" fill="#1f2328">Excalidraw</text>
+<rect x="624" y="516" width="107" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="677" y="537" font-size="13" text-anchor="middle" fill="#1f2328">Lucidchart</text>
+<rect x="741" y="516" width="75" height="32" rx="16" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+<text class="mono" x="778" y="537" font-size="13" text-anchor="middle" fill="#1f2328">Notion</text>
 </svg>

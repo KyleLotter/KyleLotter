@@ -45,5 +45,5 @@ Gqeberha, South Africa
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/tools-dark.svg">
-  <img src="assets/tools-light.svg" alt="Tools. Kotlin, C#, TypeScript, JavaScript, Java, SQL, C++, HTML, CSS, Jetpack Compose, ASP.NET Core, EF Core, React, Node, Express, MongoDB, Firebase, Azure, Docker, GitHub Actions, Canva, Cisco Packet Tracer." width="100%">
+  <img src="assets/tools-light.svg" alt="Tools. Kotlin, C#, TypeScript, JavaScript, Java, SQL, C++, HTML, CSS, Jetpack Compose, Material 3, Room, Firebase, ASP.NET Core, EF Core, SignalR, Swagger, Scalar, React, Next.js, Tailwind, Bootstrap, SQL Server, Azure SQL, PostgreSQL, Supabase, MongoDB, Azure, Docker, GitHub Actions, DigitalOcean, ESP32, Arduino IDE, Raspberry Pi, MQTT, xUnit, NUnit, Postman, Figma, Canva, draw.io, Excalidraw, Lucidchart, Notion." width="100%">
 </picture>
