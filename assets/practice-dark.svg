@@ -26,14 +26,14 @@
 <rect x="56" y="70" width="432" height="155" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
 <rect x="80" y="96" width="28" height="4" rx="2" fill="#e2774f"/>
 <text class="serif" x="80" y="132" font-size="22" fill="#e6edf3">Accessibility</text>
-<text class="mono body" x="80" y="162">TalkBack support, read-aloud and high-contrast</text>
-<text class="mono body" x="80" y="181">modes in a production Android app.</text>
+<text class="mono body" x="80" y="162">TalkBack support, read-aloud, high-contrast</text>
+<text class="mono body" x="80" y="181">modes and themes in a production Android app.</text>
 <rect x="512" y="70" width="432" height="155" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
 <rect x="536" y="96" width="28" height="4" rx="2" fill="#e2774f"/>
 <text class="serif" x="536" y="132" font-size="22" fill="#e6edf3">Offline-first</text>
 <text class="mono body" x="536" y="162">Room-backed local storage that syncs when the</text>
 <text class="mono body" x="536" y="181">connection returns, plus an offline hotspot</text>
-<text class="mono body" x="536" y="200">relay and box pairing for hardware.</text>
+<text class="mono body" x="536" y="200">relay and IoT box pairing.</text>
 <rect x="56" y="249" width="432" height="155" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
 <rect x="80" y="275" width="28" height="4" rx="2" fill="#e2774f"/>
 <text class="serif" x="80" y="311" font-size="22" fill="#e6edf3">Security</text>
@@ -43,9 +43,9 @@
 <rect x="512" y="249" width="432" height="155" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
 <rect x="536" y="275" width="28" height="4" rx="2" fill="#e2774f"/>
 <text class="serif" x="536" y="311" font-size="22" fill="#e6edf3">Cloud</text>
-<text class="mono body" x="536" y="341">Azure App Service in South Africa North, Neon</text>
-<text class="mono body" x="536" y="360">PostgreSQL, containerised services and CI</text>
-<text class="mono body" x="536" y="379">pipelines.</text>
+<text class="mono body" x="536" y="341">Production deployments on Azure App Service in</text>
+<text class="mono body" x="536" y="360">South Africa North with Neon PostgreSQL,</text>
+<text class="mono body" x="536" y="379">containerised services and automated CI/CD.</text>
 <rect x="56" y="428" width="432" height="155" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
 <rect x="80" y="454" width="28" height="4" rx="2" fill="#e2774f"/>
 <text class="serif" x="80" y="490" font-size="22" fill="#e6edf3">Data and design</text>
@@ -55,7 +55,7 @@
 <rect x="512" y="428" width="432" height="155" rx="12" fill="none" stroke="#30363d" stroke-width="1.5"/>
 <rect x="536" y="454" width="28" height="4" rx="2" fill="#e2774f"/>
 <text class="serif" x="536" y="490" font-size="22" fill="#e6edf3">Teaching</text>
-<text class="mono body" x="536" y="520">Contract tutor at Emeris across 8 modules,</text>
-<text class="mono body" x="536" y="539">class representative and technical</text>
-<text class="mono body" x="536" y="558">documentation.</text>
+<text class="mono body" x="536" y="520">Selected on academic performance as a contract</text>
+<text class="mono body" x="536" y="539">tutor at Emeris across 8 modules, while</text>
+<text class="mono body" x="536" y="558">serving as class representative.</text>
 </svg>

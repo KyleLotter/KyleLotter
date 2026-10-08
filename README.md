@@ -24,7 +24,7 @@ Gqeberha, South Africa
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
-  <img src="assets/journey-light.svg" alt="Four years, 2023 HTML, Kotlin and React Native, 2024 Java, 2025 C# and Azure, 2026 everything together." width="100%">
+  <img src="assets/journey-light.svg" alt="Four years. 2023 first lines and first apps, 2024 Java tested properly, 2025 C#, .NET and Azure, 2026 real systems for real users, including a live IoT hydroponics platform for a client." width="100%">
 </picture>
 
 <br>
@@ -38,7 +38,7 @@ Gqeberha, South Africa
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/practice-dark.svg">
-  <img src="assets/practice-light.svg" alt="In practice. Accessibility, offline-first, security, cloud, data and design, and teaching." width="100%">
+  <img src="assets/practice-light.svg" alt="In practice. Accessibility with themes, offline-first with IoT box pairing, security, cloud, data and design, and teaching." width="100%">
 </picture>
 
 <br>

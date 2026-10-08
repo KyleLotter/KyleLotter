@@ -44,20 +44,21 @@ def frame(t, h, inner, title, desc, seed, W=1000, art=True):
 
 # Journey ------------------------------------------------------------------
 YEARS = [
-    ("2023", "HTML, Kotlin and React Native",
-     "A skills-training website, a wildlife conservation site, native Kotlin Android apps and a React Native book tracker."),
-    ("2024", "Java",
-     "A unit-tested task manager, unit-tested labs, pet shop and bank apps."),
-    ("2025", "C# and Azure",
-     "A venue booking system, a security awareness chatbot, a unit-tested student manager, an online shop and an inventory manager."),
-    ("2026", "Everything, together",
-     "A Docker multi-container lab, Decorator and Strategy pattern exercises, a live currency calculator, Emeris Kotlin training and the Smart Hydro build."),
+    ("2023", "First lines, first apps",
+     "Built a skills-training site and a wildlife conservation site, then went native with Kotlin Android apps and a React Native book tracker."),
+    ("2024", "Java, tested properly",
+     "Learned to test what I build. Unit-tested Java applications, from a task manager to pet shop and bank apps."),
+    ("2025", "C#, .NET and Azure",
+     "Moved to .NET and the cloud. A venue booking system, a security awareness chatbot, an online shop and an inventory manager, with unit-tested code throughout."),
+    ("2026", "Real systems, real users",
+     "A live IoT hydroponics platform for a client on Azure. A real-time IoT mesh ecosystem. A travel planner with maps. A secure freelance marketplace with DevSecOps. A gamified budget tracker. A library app now used by a school. And teaching it all at Emeris."),
 ]
 
 
 def journey(t):
     text, muted, track, accent = t["text"], t["muted"], t["track"], t["accent"]
-    xs = [130, 372, 614, 856]
+    xs = [125, 330, 535, 790]
+    widths = [24, 24, 24, 38]
     ly = 128
     o = ['<text class="mono tiny" x="56" y="50">THE JOURNEY SO FAR</text>',
          '<line x1="56" y1="%d" x2="944" y2="%d" stroke="%s" stroke-width="7" stroke-linecap="round"/>' % (ly, ly, track)]
@@ -67,11 +68,11 @@ def journey(t):
         col = accent if last else text
         o.append('<text class="serif" x="%d" y="%d" font-size="38" text-anchor="middle" fill="%s">%s</text>' % (x, ly - 30, col, yr))
         o.append('<circle cx="%d" cy="%d" r="%d" fill="%s"/>' % (x, ly, 11 if last else 8, col))
-        tl = wrap(title, 22)
+        tl = wrap(title, 24)
         o.append('<text class="mono" x="%d" y="%d" font-size="13" font-weight="700" text-anchor="middle" fill="%s">%s</text>'
                  % (x, ly + 46, text, ''.join('<tspan x="%d" dy="%s">%s</tspan>' % (x, 0 if k == 0 else 17, escape(s)) for k, s in enumerate(tl))))
         body_y = ly + 46 + (len(tl) - 1) * 17 + 28
-        lines = wrap(body, 27)
+        lines = wrap(body, widths[i])
         maxlines = max(maxlines, len(lines) + len(tl) - 1)
         for j, ln in enumerate(lines):
             o.append('<text class="mono body" x="%d" y="%d" text-anchor="middle">%s</text>' % (x, body_y + j * 18, escape(ln)))
@@ -81,16 +82,16 @@ def journey(t):
 
 # Projects -----------------------------------------------------------------
 PROJECTS = [
-    ("Smart Hydro", "Hydroponics monitoring and dosing for a client, live on Azure.",
+    ("Smart Hydro", "Live IoT hydroponics platform for a client, running on Azure.",
      "Kotlin, Compose, Room, ASP.NET Core, Azure, Neon PostgreSQL, ESP32", True),
-    ("PiggyPromise", "Personal budgeting app with charts.", "Kotlin, Compose, Firebase, MPAndroidChart, GitHub Actions", False),
-    ("Odyssey", "Travel app with maps and a backend.", "Android Compose, Mapbox, Firebase Auth and Storage, ASP.NET", False),
-    ("Smart-X", "Real-time web platform.", "React, TypeScript, ASP.NET Core, EF Core, SignalR, Docker Compose", False),
-    ("TechMove", "Logistics web app and API.", "ASP.NET MVC, Web API, Docker, GitHub Actions, DigitalOcean", False),
-    ("HustleHub+", "Marketplace for small businesses.", "React, TypeScript, Express, MongoDB, JWT, HTTPS", False),
+    ("PiggyPromise", "Gamified budget tracker with charts.", "Kotlin, Compose, Firebase, MPAndroidChart, GitHub Actions", False),
+    ("Odyssey", "Travel planner with maps and a backend.", "Android Compose, Mapbox, Firebase Auth and Storage, ASP.NET", False),
+    ("Smart-X", "Real-time IoT mesh ecosystem.", "React, TypeScript, ASP.NET Core, EF Core, SignalR, Docker Compose", False),
+    ("TechMove", "Containerised logistics platform with a Web API and CI/CD.", "ASP.NET MVC, Web API, Docker, GitHub Actions, DigitalOcean", False),
+    ("HustleHub+", "Secure freelance marketplace with a DevSecOps pipeline.", "React, TypeScript, Express, MongoDB, JWT, HTTPS", False),
     ("Noble & Co.", "Cloud-native storefront.", "Azure Table, Blob, Queue and Functions", False),
-    ("CMCS", "Claims system with encrypted documents.", "ASP.NET Core, AES, QuestPDF", False),
-    ("School Library", "Library management desktop app, used by a school.", ".NET MAUI, EF Core, SQLite", False),
+    ("CMCS", "Claims system with AES-encrypted documents and PDF reports.", "ASP.NET Core, AES, QuestPDF", False),
+    ("School Library", "Library management app in use at a school.", ".NET MAUI, EF Core, SQLite", False),
 ]
 
 
@@ -126,12 +127,12 @@ def projects(t):
 
 # In practice --------------------------------------------------------------
 PRACTICE = [
-    ("Accessibility", "TalkBack support, read-aloud and high-contrast modes in a production Android app."),
-    ("Offline-first", "Room-backed local storage that syncs when the connection returns, plus an offline hotspot relay and box pairing for hardware."),
+    ("Accessibility", "TalkBack support, read-aloud, high-contrast modes and themes in a production Android app."),
+    ("Offline-first", "Room-backed local storage that syncs when the connection returns, plus an offline hotspot relay and IoT box pairing."),
     ("Security", "OTP login with rate limiting, security-header middleware, JWT auth, HTTPS and AES document encryption."),
-    ("Cloud", "Azure App Service in South Africa North, Neon PostgreSQL, containerised services and CI pipelines."),
+    ("Cloud", "Production deployments on Azure App Service in South Africa North with Neon PostgreSQL, containerised services and automated CI/CD."),
     ("Data and design", "ERDs and data models, relational and document schemas, PL/SQL, personas, double diamond, user-centred design and Figma prototypes."),
-    ("Teaching", "Contract tutor at Emeris across 8 modules, class representative and technical documentation."),
+    ("Teaching", "Selected on academic performance as a contract tutor at Emeris across 8 modules, while serving as class representative."),
 ]
 
 
