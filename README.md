@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Kyle Lötter. Android developer, .NET developer, IoT builder, cloud and security. Gqeberha, South Africa." width="100%">
+  <img src="assets/hero-light.svg" alt="Kyle Frederick Lötter. Android developer, .NET developer, IoT builder, cloud and security. Gqeberha, South Africa." width="100%">
 </picture>
 
 <br>

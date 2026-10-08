@@ -44,8 +44,8 @@ def build(t):
 """ % muted
     o = ['<?xml version="1.0" encoding="UTF-8"?>',
          '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img">' % (W, H, W, H),
-         '<title>Kyle Lötter</title>',
-         '<desc>Kyle Lötter. Android developer, .NET developer, IoT builder, cloud and security. '
+         '<title>Kyle Frederick Lötter</title>',
+         '<desc>Kyle Frederick Lötter. Android developer, .NET developer, IoT builder, cloud and security. '
          'Gqeberha, South Africa.</desc>',
          '<style>%s</style>' % css,
          '<defs><clipPath id="c"><rect width="%d" height="%d"/></clipPath></defs>' % (W, H),
@@ -55,7 +55,7 @@ def build(t):
     o.append('</g>')
 
     # Name
-    o.append('<text class="serif" x="500" y="118" font-size="72" text-anchor="middle" fill="%s" opacity="0">Kyle Lötter%s</text>'
+    o.append('<text class="serif" x="500" y="118" font-size="66" text-anchor="middle" fill="%s" opacity="0">Kyle Frederick Lötter%s</text>'
              % (text, fade_up(0.2)))
 
     # Role badge, centred
