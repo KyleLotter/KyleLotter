@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="assets/network-map.svg" alt="Kyle Lötter's skills map. Seven lines, Web, .NET, Mobile, IoT, Cloud, Data and design, and Teaching, with skills as stations and shared skills as interchanges." width="100%">
-
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map-dark.svg">
+  <img src="assets/map-light.svg" alt="Kyle Lötter's skills map. Seven lines, Web, .NET, Mobile, IoT, Cloud, Data and design, and Teaching, with skills as stations and shared skills as interchanges." width="100%">
+</picture>
 
 Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
@@ -10,67 +11,36 @@ Gqeberha, South Africa · [LinkedIn](https://www.linkedin.com/in/kyle-lotter)
 
 <br>
 
-<img src="assets/sections/languages-head.svg" alt="Languages and stacks" width="100%">
-
-<details>
-<summary><b>Open the language route</b></summary>
-
-<br>
-
-<img src="assets/sections/languages.svg" alt="Kotlin, C#, TypeScript and JavaScript, Java, SQL, C and C++, HTML and CSS, plus Azure, Docker and GitHub Actions tooling." width="100%">
-
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
+  <img src="assets/journey-light.svg" alt="Four years, 2023 HTML, Kotlin and React Native, 2024 Java, 2025 C# and Azure, 2026 everything together." width="100%">
+</picture>
 
 <br>
 
-<img src="assets/sections/skills-head.svg" alt="Skills in depth" width="100%">
-
-<details>
-<summary><b>Open the skills board</b></summary>
-
-<br>
-
-<img src="assets/sections/skills.svg" alt="Accessibility, offline-first mobile, security, cloud, data design, research and design, and teaching." width="100%">
-
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg">
+  <img src="assets/projects-light.svg" alt="Selected work. Smart Hydro, PiggyPromise, Odyssey, Smart-X, TechMove, HustleHub+, Noble and Co., CMCS and School Library." width="100%">
+</picture>
 
 <br>
 
-<img src="assets/sections/projects-head.svg" alt="Projects" width="100%">
+### In practice
 
-<details>
-<summary><b>Open the departures board</b></summary>
+**Accessibility.** TalkBack support, read-aloud and high-contrast modes in a production Android app.
 
-<br>
+**Offline-first.** Room-backed local storage that syncs when the connection returns, plus an offline hotspot relay and box pairing for hardware.
 
-<img src="assets/sections/projects.svg" alt="Smart Hydro, PiggyPromise, Odyssey, Smart-X, TechMove, HustleHub+, Noble and Co., CMCS and School Library." width="100%">
+**Security.** OTP login with rate limiting, security-header middleware, JWT auth, HTTPS and AES document encryption.
 
-</details>
+**Cloud.** Azure App Service in South Africa North, Neon PostgreSQL, containerised services and CI pipelines.
 
-<br>
+**Data and design.** ERDs and data models, relational and document schemas, PL/SQL, personas, double diamond, user-centred design and Figma prototypes.
 
-<img src="assets/sections/timeline-head.svg" alt="Timeline" width="100%">
-
-<details>
-<summary><b>Open the timeline</b></summary>
+**Teaching.** Contract tutor at Emeris across 8 modules, class representative, technical documentation.
 
 <br>
 
-<img src="assets/sections/timeline.svg" alt="2023 HTML, Kotlin and React Native. 2024 Java. 2025 C# and Azure. 2026 everything, together." width="100%">
+### Tools
 
-</details>
-
-<br>
-
-<img src="assets/sections/beyond-head.svg" alt="Beyond the code" width="100%">
-
-<details>
-<summary><b>Open the extras</b></summary>
-
-<br>
-
-<img src="assets/sections/beyond.svg" alt="Data, networks, design, and architecture and planning work." width="100%">
-
-</details>
-
-<br>
+`Kotlin` `C#` `TypeScript` `JavaScript` `Java` `SQL` `C++` `HTML` `CSS` `Jetpack Compose` `ASP.NET Core` `EF Core` `React` `Node` `Express` `MongoDB` `Firebase` `Azure` `Docker` `GitHub Actions` `Cisco Packet Tracer`
